@@ -1,6 +1,6 @@
 package p2_abstractfactory;
 
-//抽象工厂
+//创建型：抽象工厂
 public class AbstractFactory {
     public static  void main(String[] args){
         Factory factory = new Factory1();

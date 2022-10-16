@@ -1,6 +1,6 @@
 package p1_factorymethod;
 
-//工厂方法
+//创建型：工厂方法
 public class FactoryMethod {
 
     public static  void main(String[] args){

@@ -1,6 +1,6 @@
 package p1_simplefactory;
 
-//简单工厂
+//创建型：简单工厂
 public class SimpleFactory {
     public static  void main(String[] args){
         Product product = Factory.create("B");
