@@ -3,13 +3,13 @@ package p1_simplefactory;
 //创建型：简单工厂
 public class SimpleFactory {
     public static  void main(String[] args){
-        Product product = Factory.create("B");
+        Product product = Factory.createProduct("B");
         product.info();
     }
 }
 
 class Factory{
-    public  static Product create(String type){
+    public  static Product createProduct(String type){
         Product product = null;
 
         switch(type){
@@ -28,8 +28,6 @@ class Factory{
 abstract class Product {
   public abstract void info();
 }
-
-
 
 class ProductA extends Product{
 
